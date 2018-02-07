@@ -12,7 +12,7 @@ black = Color(0x000000, 1)
 blackOutline = LineStyle(1, black)
 
 redRectangle = RectangleAsset(200, 100, blackOutline, red) #(wdith, height, outline, fill)
-blueCircle = CicrcleAsset(50, blackOutline, blue) #radius, outline, fill
+blueCircle = CircleAsset(50, blackOutline, blue) #radius, outline, fill
 
 
 
