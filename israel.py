@@ -13,13 +13,13 @@ blank = Color(0xFFFFFF, 0)
 
 
 blackOutline = LineStyle(1, black)
-blueOutline = LineStyle(1, blue)
+blueOutline = LineStyle(8, blue)
 
 blueRectangle = RectangleAsset(300, 33, blueOutline, blue) #(wdith, height, outline, fill)
 blueRectangle2 = RectangleAsset(300, 33, blueOutline, blue) #(wdith, height, outline, fill)
 
 
-blueTriangle = PolygonAsset([(500,1000), (600,1000), (550,1100)], blueOutline, blank) #endpoints, outline, fill
+blueTriangle = PolygonAsset([(500,1000), (600,1000), (550,1090)], blueOutline, blank) #endpoints, outline, fill
 
 
 Sprite(blueRectangle)
@@ -27,7 +27,7 @@ Sprite(blueRectangle, (0, 166))
 
 
 
-Sprite(blueTriangle)
+Sprite(blueTriangle, (100,50 ))
 
 
 App().run() 
